@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Triqui - Juego</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+
+    <div class="contenedor">
+
+        <h1>TRIQUI</h1>
+        <p class="subtitulo">¡Pon a prueba tu estrategia!</p>
+
+        <div class="marcador">
+            <div class="jugador azul">
+                <span>Jugador X</span>
+                <strong id="puntosX">0</strong>
+            </div>
+
+            <div class="turno">
+                Turno de:
+                <strong id="turnoActual">X</strong>
+            </div>
+
+            <div class="jugador rojo">
+                <span>Jugador O</span>
+                <strong id="puntosO">0</strong>
+            </div>
+        </div>
+
+        <div class="tablero">
+
+            <button class="casilla" data-posicion="0"></button>
+            <button class="casilla" data-posicion="1"></button>
+            <button class="casilla" data-posicion="2"></button>
+
+            <button class="casilla" data-posicion="3"></button>
+            <button class="casilla" data-posicion="4"></button>
+            <button class="casilla" data-posicion="5"></button>
+
+            <button class="casilla" data-posicion="6"></button>
+            <button class="casilla" data-posicion="7"></button>
+            <button class="casilla" data-posicion="8"></button>
+
+        </div>
+
+        <p id="mensaje" class="mensaje">
+            ¡Comienza el juego!
+        </p>
+
+        <button id="reiniciar" class="btn-reiniciar">
+            Reiniciar partida
+        </button>
+
+        <button id="reiniciarPuntos" class="btn-puntos">
+            Reiniciar marcador
+        </button>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
