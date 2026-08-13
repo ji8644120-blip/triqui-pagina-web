@@ -196,9 +196,6 @@ h1 {
     background: #d92626;
     transform: translateY(-2px);
 }
-
-/* RESPONSIVE */
-
 @media (max-width: 500px) {
 
     .contenedor {
@@ -225,4 +222,59 @@ h1 {
     .turno {
         font-size: 12px;
     }
+}
+.detalle-container {
+    width: 90%;
+    max-width: 700px;
+    margin: auto;
+    padding: 35px;
+
+    background: rgba(255, 255, 255, 0.08);
+    border: 2px solid rgba(255, 255, 255, 0.15);
+    border-radius: 20px;
+
+    text-align: center;
+
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.4);
+}
+
+.detalle-container h1 {
+    margin-bottom: 20px;
+}
+
+.detalle-container h2 {
+    color: #2196f3;
+    margin: 25px 0 15px;
+}
+
+.detalle-container p {
+    color: #d8eaff;
+    line-height: 1.7;
+    margin-bottom: 15px;
+}
+
+.detalle-container ul {
+    text-align: left;
+    width: fit-content;
+    margin: 15px auto;
+    color: #d8eaff;
+    line-height: 2;
+}
+
+.btn-volver {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 22px;
+
+    background: #2196f3;
+    color: white;
+
+    text-decoration: none;
+    border-radius: 10px;
+
+    font-weight: bold;
+}
+
+.btn-volver:hover {
+    background: #0d6fc4;
 }
